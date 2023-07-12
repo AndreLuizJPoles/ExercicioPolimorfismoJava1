@@ -21,7 +21,8 @@ public class Main {
             System.out.print("Outsourced (y/n)? ");
             char answer = sc.next().charAt(0);
             System.out.print("Name: ");
-            String name = sc.next();
+            sc.nextLine();
+            String name = sc.nextLine();
             System.out.print("Hours: ");
             int hours = sc.nextInt();
             System.out.print("Value per hour: ");
